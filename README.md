@@ -7,6 +7,10 @@ The graph would be used to generate an adjacency list for the set of nodes next 
 node. All adjacencies and path traversals are recursive and use the @tailrec annotation to optimize
 with loop unrolling by the compiler.
 
+Assumptions:  
+Scala 12 used to leverage native Stdin library.  
+breakable was used to permit escape from for comprehension on stream ingestion of data.  
+
 The following schematic was used to visually simplify testing the inputs for the queries sought:
 
 https://puu.sh/BxF5w/67a43b88a4.png

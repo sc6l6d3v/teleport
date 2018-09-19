@@ -12,7 +12,6 @@ resolvers ++= Seq(
 
 libraryDependencies ++= Seq(
   "com.manyangled" %% "breakable" % "0.1.1",
-  "com.chuusai" %% "shapeless" % "2.3.3",
   "org.scalactic" %% "scalactic" % "3.0.5",
   "org.scalatest" %% "scalatest" % "3.0.5" % "test"
 )
