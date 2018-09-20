@@ -9,7 +9,8 @@ with loop unrolling by the compiler.
 
 Assumptions:  
 Scala 12 used to leverage native Stdin library.  
-breakable was used to permit escape from for comprehension on stream ingestion of data.  
+breakable was used to permit escape from for comprehension on stream ingestion of data. 
+JVM argument -Ddebug={true|false} must be supplied at runtime   
 
 The following schematic was used to visually simplify testing the inputs for the queries sought:
 
